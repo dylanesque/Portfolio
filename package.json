@@ -7,6 +7,8 @@
     "url": "https://github.com/s-kris/gatsby-minimal-portfolio-blog/issues"
   },
   "dependencies": {
+    "@fontsource/lato": "^4.1.0",
+    "@fontsource/zilla-slab": "^4.1.0",
     "gatsby": "^2.30.2",
     "gatsby-plugin-feed": "^2.5.3",
     "gatsby-plugin-google-analytics": "^2.3.2",
@@ -34,8 +36,6 @@
     "react-responsive-modal": "^5.0.2",
     "react-typography": "^0.16.19",
     "react-vertical-timeline-component": "^2.6.2",
-    "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.75",
     "typography": "^0.16.19",
     "typography-theme-github": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"

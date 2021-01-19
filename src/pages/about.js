@@ -1,11 +1,13 @@
 import React from 'react'
-import { graphql } from 'gatsby'
 import get from 'lodash/get'
 import { Helmet } from 'react-helmet'
 
-import Layout from '../components/Layout'
+import { graphql } from 'gatsby'
 
-class SiteIndex extends React.Component {
+import Layout from '../components/Layout'
+import { rhythm } from '../utils/typography'
+
+class About extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const siteDescription = get(
@@ -14,18 +16,19 @@ class SiteIndex extends React.Component {
     )
 
     return (
-      <Layout>
-        <Helmet>
-          <title>{siteTitle}</title>
-          <meta name="description" content={siteDescription} />
-        </Helmet>
-        <h1>Hi I'm Michael, welcome to my site</h1>
+      <Layout style={{ maxWidth: rhythm(45) }}>
+        <Helmet
+          htmlAttributes={{ lang: 'en' }}
+          meta={[{ name: 'description', content: siteDescription }]}
+          title={`Projects`}
+        />
+        <h2>Projects</h2>
       </Layout>
-    );
+    )
   }
 }
 
-export default SiteIndex
+export default About
 
 export const query = graphql`
   query {
