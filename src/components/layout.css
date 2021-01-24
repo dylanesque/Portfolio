@@ -1,0 +1,29 @@
+:root {
+  --black: #222;
+  --grey: #bfbfbf;
+  --white: white;
+
+  --headingFont: 'Lato', sans-serif;
+  --bodyFont: 'Zilla Slab', serif;
+}
+
+body {
+  background-color: var(--black);
+  font-family: var(--bodyFont);
+}
+
+a {
+    font-size: 120%;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  border-bottom-style: none;
+  color: var(--white);
+  font-family: var(--headingFont);
+}

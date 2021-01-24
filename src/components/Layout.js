@@ -4,6 +4,7 @@ import { rhythm } from '../utils/typography'
 import Header from '../components/Header'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import './layout.css';
 
 class Layout extends React.Component {
   render() {

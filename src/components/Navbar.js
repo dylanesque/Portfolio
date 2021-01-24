@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
 import { rhythm } from './../utils/typography'
-import contactData from './../data/contact'
 
 export class Navbar extends Component {
   render() {
