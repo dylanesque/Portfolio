@@ -11,7 +11,8 @@ export class Navbar extends Component {
           width: '100%',
           display: 'flex',
           flexDirection: 'row',
-          justifyContent: 'center',
+          justifyContent: 'flex-end',
+          paddingRight: rhythm(2)
         }}
       >
         <div

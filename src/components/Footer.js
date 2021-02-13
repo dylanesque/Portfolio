@@ -17,10 +17,8 @@ export class Footer extends Component {
   render() {
     return (
       <div style={styles.rootContainer}>
-        Built with&nbsp;
-        <a href="https://gatsbyjs.org" target="_blank">
-          GatsbyJS
-        </a>
+        Built by Michael Caveney, 
+        
       </div>
     )
   }

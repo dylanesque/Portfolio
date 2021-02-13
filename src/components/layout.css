@@ -2,6 +2,11 @@
   --black: #222;
   --grey: #bfbfbf;
   --white: white;
+  --lightGreen: #79B473;
+  --green: #70A37f;
+  --blue: #41658A;
+  --darkBlue: #414073;
+  --purple: #4c3597;
 
   --headingFont: 'Lato', sans-serif;
   --bodyFont: 'Zilla Slab', serif;
@@ -24,6 +29,6 @@ h4,
 h5,
 h6 {
   border-bottom-style: none;
-  color: var(--white);
+  color: var(--lightGreen);
   font-family: var(--headingFont);
 }
