@@ -5,3 +5,9 @@ GatsbyJS starter (based on [gatsby-starter-blog](https://github.com/gatsbyjs/gat
 Install this starter (assuming Gatsby is installed) by running from your CLI:
 
 - Follow blog setup instructions here: https://www.freecodecamp.org/news/how-to-automatically-cross-post-from-your-gatsbyjs-blog-with-rss/
+
+- Add dark/light mode toggle
+
+- Consider Typed.js for portfolio flair
+
+- Consider Email.js for messaging/forms

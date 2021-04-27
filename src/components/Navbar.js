@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
-import { rhythm } from './../utils/typography'
-
 export class Navbar extends Component {
   render() {
     return (
@@ -12,12 +10,10 @@ export class Navbar extends Component {
           display: 'flex',
           flexDirection: 'row',
           justifyContent: 'flex-end',
-          paddingRight: rhythm(2)
         }}
       >
         <div
           style={{
-            width: rhythm(24),
             maxWidth: 400,
             display: 'flex',
             flexDirection: 'row',

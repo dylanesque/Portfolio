@@ -4,7 +4,6 @@ import React from 'react'
 import '@fontsource/lato'
 
 import profilePic from './../assets/images/avatar.png'
-import { rhythm } from '../utils/typography'
 import bioData from './../data/bio'
 
 class Bio extends React.Component {
@@ -12,18 +11,14 @@ class Bio extends React.Component {
     return (
       <div
         style={{
-          display: 'flex',
-          marginBottom: rhythm(2.5),
+          display: 'flex'
         }}
       >
         <img
           src={profilePic}
           alt={`Sai Krishna`}
           style={{
-            marginRight: rhythm(1 / 2),
-            marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
+            marginBottom: 0
           }}
         />
         <p>{bioData}</p>

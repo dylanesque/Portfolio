@@ -2,9 +2,9 @@
   --black: #222;
   --grey: #bfbfbf;
   --white: white;
-  --lightGreen: #79B473;
-  --green: #70A37f;
-  --blue: #41658A;
+  --lightGreen: #79b473;
+  --green: #70a37f;
+  --blue: #41658a;
   --darkBlue: #414073;
   --purple: #4c3597;
 
@@ -12,13 +12,20 @@
   --bodyFont: 'Zilla Slab', serif;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--black);
   font-family: var(--bodyFont);
+  letter-spacing: 0.75px;
 }
 
 a {
-    font-size: 120%;
+  font-size: 120%;
 }
 
 a,
@@ -31,4 +38,9 @@ h6 {
   border-bottom-style: none;
   color: var(--lightGreen);
   font-family: var(--headingFont);
+}
+
+section {
+  margin: 0 auto;
+  width: 500px;
 }

@@ -5,7 +5,6 @@ import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import { rhythm } from '../utils/typography'
 
 class About extends React.Component {
   render() {
@@ -16,7 +15,7 @@ class About extends React.Component {
     )
 
     return (
-      <Layout style={{ maxWidth: rhythm(45) }}>
+      <Layout>
         <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}

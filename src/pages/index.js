@@ -1,7 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import get from 'lodash/get'
-import { rhythm } from '../utils/typography'
 import { Helmet } from 'react-helmet'
 
 import Layout from '../components/Layout'
@@ -21,7 +20,7 @@ class SiteIndex extends React.Component {
           <title>{siteTitle}</title>
           <meta name="description" content={siteDescription} />
         </Helmet>
-        <section style={{ paddingLeft: rhythm(4)}}>
+        <section>
           <h1>I'm Michael Caveney</h1>
           <h1>I love solving problems with modern web technologies</h1>
           <h1>(especially JavaScript!)</h1>
